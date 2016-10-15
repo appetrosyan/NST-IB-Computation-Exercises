@@ -1,0 +1,26 @@
+//----------------------------------------------------------------------------\\
+                                Week 1 Computation
+//----------------------------------------------------------------------------\\
+
+As per the instruction sin the Handout, (and taking advantage of this being
+self-assessed), I've set myself an intermediate problem from SPOJ.pl.
+
+The task is: write a function/program, that will generate all the prime numbers
+within a given range [a,b] (endpoints inclusive), and make it
+
+a) Asymptotically time-efficient.
+b) Readable and understandable
+c) Minimalistic
+d) Extensible.
+
+a) it's O(n^2), adding Memoization will improve factual but not asymptotic speed
+and only in certain usage scenarios.
+b) You be the judge of that, but I could understand what it does after a night
+of doing Physics/Maths all day.
+c) Not quite.
+d) As long as there's a provider for the functions isPrime and
+upperBoundOnQuotients it can be extended.
+
+My solution: 
+
+Prime_Number_generator.cpp
